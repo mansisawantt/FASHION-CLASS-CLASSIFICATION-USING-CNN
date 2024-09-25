@@ -1,24 +1,14 @@
 # FASHION-CLASS-CLASSIFICATION-USING-CNN
-FASHION CLASS CLASSIFICATION USING CNN
 
->OBJECTIVE
+<br/>The global fashion industry is valued at three trillion dollars and accounts for 2 percent of the world's. GDP the fashion industry is undergoing a dramatic transformation by adopting new computer vision and Machine learning and deep learning techniques.
+
 <br/>In this case study we'll look at a hypothetical situation. We assume that if a retailer hired you to build a virtual stylist assistant that looks at customer Instagram and Facebook images and classifies what fashion category they are wearing either bags dresses and pants. The virtual assistant can help the retailer detect and forecast fashion trends and launch targeted marketing campaigns.
+
 <br/>In this story we're going to use the fashionmnist data. It's a data set that contains images of bags shoes and dresses. And we're asking the deep network to classify the images into 10 classes.
+
 <br/>So we wanted to build kind of an app per se or a model. They can look at images and can tell us exactly what category in this image. Is it like a short. Is it a bag. Is it like a hat. And so on.
+That's the whole objective.
 
-<br/>>PROBLEMS STATEMENT AND BUSINESS CASE
+<br/>The data again they are divided into 28 by 28 greyscale images and the target class is actually No. 1 out of 10 which is kind of a target label which can be categorized as you can see into either like maybe a shoe maybe like like pants. Basically these are the target classes. We have the t shirts trousers pullovers ankle boots sneakers and so on so forth.
 
-<br/>Fashion training set consist of 70,000 images divided into 60,000 training and 10,000 testing samples. Dataset samples consits of 28x28 grayscale image associated with a label from 10 calsses
-
-<br/>The top 10 callases as follows :
-<br/>0 -> T-shirts
-<br/>1 -> Trouser
-<br/>2 -> Pullover
-<br/>3 -> Dress
-<br/>4 -> Coat
-<br/>5 -> Sandel
-<br/>6 -> Shirt
-<br/>7 -> Sneaker
-<br/>8 -> Bag
-<br/>9 -> Ankle boot
-<br/>Each Image is 28 pixel in hight and 28 pixel in width, for a total of 784 pixels in total. Each pixel has a single Pixel value associated with it, indicating the lightness or darkness of the pixel. Higher number means darker piexl. The pixel value is an integer Between 0 and 255
+<br/>Download data set from here https://www.kaggle.com/zalando-research/fashionmnist
